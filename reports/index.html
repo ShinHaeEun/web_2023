@@ -2,13 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>환영</title>
+    <title>HE PortFolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <style>
+        body{margin:0}
+         * {font-family: 'Noto Sans KR', sans-serif;}
+        #Home{padding-top:150px; padding-bottom:50px;}
+        nav {font-weight:bold;}
+        .blue_page{background-color:#EFF2F8}
+        .section_name {font-weight: bold; color: #5170cd; text-align: center; font-size: 1.5em; margin-top:30px; margin-bottom:30px;}
+        .name{font-weight:bold; color: #5170cd;}
+        .info{font-weight:bold;}
+    </style>
 </head>
+
 <body>
-<h2>XXX 취업 정보사</h2>
-취업 정보 사이트 방문을 환영합니다.
+<nav>
+<div data-include-path="menu.html"></div>
+<script src="../js/get_tags.js"></script>
+</nav>
+<div class = "container-fluid">
+<!------- 1. Home page Section ------->
+    <section id = "Home" class = "blue_page">
+        <div class = "text-center">
+            <h2 class = "mb-3"> Hello, I'm <span class = "name">HaeEun</span>!</h2>
+            <image src="../images/memoji.png" style="width:200px;"></image>
+            <p class = "mt-3 mb-1"> 안녕하세요 저의 웹페이지에 방문하신걸 환영합니다 !</p>
+            <p> 아래 스크롤을 내려 저에 대해 더 알아보세요 :)</p>
+            <a href="#About_me" class="btn btn-primary">Get Started!</a>
+        </div>
+    </section>
+<!-------2.About Me Section------->
+    <section>
+    <div id="About_me" class="section_name">1. ABOUT ME</div>
+    <div class="row">
+        <div class="col-sm-5 text-center p-3">
+          <img class="rounded mw-100" src="../images/myphoto.jpg">
+        </div>
+        <div class="col-sm-7 p-2">
+            <div class="h3">안녕하세요 저는 <span class = "name">신해은</span>입니다.</div>
+            <p> 현재 학부에서 UXUI와 데이터 분석을 공부하고 있습니다 :)</p>
+            <hr>
+            <div class = "row">
+                <div class = "col-sm-6">
+                      <div class = "mb-3"><span class = "info">Birth :</span> 2002.07.21 </div>
+                      <div class = "mb-3"><span class = "info"> Age : </span>22</div>
+                      <div class = "mb-3"><span class = "info"> Mbti :</span> INFP</div>
+                      <div class = "mb-3"><span class = "info"> City : </span>Gyeongsangnam-do, Chang Won</div>
+                      <div class = "mb-3"><span class = "info"> Student ID : </span>20211567</div>
+                      <div class = "mb-3"><span class = "info"> Email : </span>20211567@dongduk.ac.kr</div>
+                </div>
+                <div class = "col-sm-6">
+                      <div class = "mb-3"><span class = "info"> School :</span> Donkduk Women's University </div>
+                      <div class = "mb-3"><span class = "info"> Grade : </span>3</div>
+                      <div class = "mb-3"><span class = "info"> Major :</span> HCI Science</div>
+                      <div class = "mb-3"><span class = "info"> Double Major : </span>Information Statistics</div>
+                      <div class = "mb-3"><span class = "info"> Certification : </span>SQLD</div>
+                </div>
+            </div>
+            <hr>
+            <div class = "h5 mb-3">Skills</div>
+            <div class = "mb-4">
+                    <img src = "https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white">
+                    <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=white">
+                    <img src = "https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white">
+                    <img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white">
+                    <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=R&logoColor=white">
+                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">
+                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white">
+                    <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=Neo4j&logoColor=white">
+                    <img src="https://img.shields.io/badge/Mysql-4479A1?style=flat-square&logo=Mysql&logoColor=white">
+            </div>
+            <div class = "mb-1"> 항상 최선을 다해 <span class = "info">최고의 결과</span>를 만들어내려고 노력합니다.</div>
+            <div class = "mb-1"> 세세한 부분까지 놓치치 않고 <span class = "info">꼼꼼하게</span> 맡은 일을 수행합니다.</div>
+            <div class = "mb-1"> 어려움을 두려워하지 않고 <span class = "info">도전에 맞서는 것</span>을 즐깁니다.</div>
+            <div class = "mb-1"> <span class = "info">계획적이고 체계적으로</span> 일을 진행하는 것을 즐깁니다.</div>
+        </div>
+    </div>
+    </section>
 
-<p><a href="hw2_CSS.html">회원가입 1</a> &nbsp; <a href="register.html">회원가입 2</a> &nbsp; <a href="login.html">로그인</a>
-
+<!-------3.Lab------->
+    <section id = "Lab" class = "blue_page">
+    <div class="section_name pt-3">2. LAB</div>
+        <div class="row">
+    <div class="col-sm-6">
+        <img src="../images/lab.png" class = "ps-5" style="width: 150px;">
+     </div>
+     <div class="col-sm-6">
+      <p>
+        <a href="hw1.html" class="btn btn-primary">과제 1</a>
+        <a href="hw2.html" class="btn btn-primary">과제 2</a>
+        <a href="hw3.html" class="btn btn-primary">과제 3</a>
+      </p>
+     </div>
+    </div>
+        
+    </section>
+</div>
 </body>
 </html>
+
+
+
+
