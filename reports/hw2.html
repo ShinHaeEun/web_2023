@@ -7,7 +7,7 @@
         #essential {color:red; font-size:10pt;}
         .section {font-weight: bold ; background-color: lightblue; width:800px; padding-left: 10px;}
         label {display : inline-block; margin-left:8px; text-align: right; width: 130px; padding-right: 8px;}
-        span{color:red;}
+        .star{color:red;}
     </style>
 </head>
 <body>
@@ -16,28 +16,28 @@
 <form name = "register" method="post">
     <div id = "input1">
         <p class = "section"> 기본 정보 </p>
-        <div><label for = "name">이 름<span>*</span></label>
+        <div><label for = "name">이 름<span class = 'star'>*</span></label>
              <input type = "text" name = "name" id = "name" size = "8"></div>
-        <div><label for = "email">이메일<span>*</span></label>
+        <div><label for = "email">이메일<span class = 'star'>*</span></label>
              <input type = "email" name = "email" id = "email" size = "15" placeholder="id@domain_name"></div>
-        <div><label for = "password">암호<span>*</span></label>
+        <div><label for = "password">암호<span class = 'star'>*</span></label>
              <input type = "password" name = "password" id = "password" size = "12"></div>
-        <div><label for = "password_check">암호 확인<span>*</span></label>
+        <div><label for = "password_check">암호 확인<span class = 'star'>*</span></label>
             <input type = "password" name = "password_check" id = "password_check" size = "12"></div>
-        <div><label for = "mobile_phone">모바일 폰<span>*</span></label>
+        <div><label for = "mobile_phone">모바일 폰<span class = 'star'>*</span></label>
             <input type = "tel" name = "mobile_phone" id = "mobile_phone" size = "13" placeholder="010-0000-0000"></div>
         <div><label for = "homepage">개인 홈페이지</label>
             <input type = "url" name = "homepage" id = "homepage" size = "30" placeholder="http://" ></div>
-        <div><label for = "address">주소<span>*</span></label>
+        <div><label for = "address">주소<span class = 'star'>*</span></label>
             <input type = "text" name = "address" id = "address" size = "30"></div>
     </div>
     <div id = "input2">
         <p class = "section"> 학 력 </p>
-        <div><label for = "school_name">학교 명<span>*</span></label>
+        <div><label for = "school_name">학교 명<span class = 'star'>*</span></label>
             <input type = "text" name = "school_name" id = "school_name" size = "12"></div>
-        <div><label for = "major">전 공<span>*</span></label>
+        <div><label for = "major">전 공<span class = 'star'>*</span></label>
             <input type = "text" name = "major" id = "major" size = "12"></div>
-        <div><label for = "graduation_status">졸업 여부<span>*</span></label>
+        <div><label for = "graduation_status">졸업 여부<span class = 'star'>*</span></label>
             <select name = "graduation_status" id = "graduation_status">
                 <option value = "0">---선택---</option>
                 <option value = "1">졸업예정</option>
