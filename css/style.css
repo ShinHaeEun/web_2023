@@ -1,2 +1,10 @@
 
+         * {font-family: 'Noto Sans KR', sans-serif;}
+        #Home{padding-top:150px; padding-bottom:50px;}
+        nav,.info,.card-title {font-weight:bold;}
+        .blue_page{background-color:#EFF2F8;}
+        .section_name {font-weight: bold; color: #5170cd; text-align: center; font-size: 1.5em; margin-top:30px; margin-bottom:30px;}
+        .name,.qna{font-weight:bold; color: #5170cd;}
+        ul {list-style-type:none;}
+
 
